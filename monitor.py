@@ -36,6 +36,7 @@ def fetch_products_api():
     while True:
         params = {**STORE_PARAMS_BASE, "page": page}
         resp = SESSION.get(STORE_API_URL, params=params, timeout=20)
+        log.info(f"HTTP {resp.status_code} ct={resp.headers.get('content-type')!r}")
         resp.raise_for_status()
         text = resp.text
         try:
