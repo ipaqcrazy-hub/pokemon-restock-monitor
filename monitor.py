@@ -37,13 +37,11 @@ def fetch_products_api():
         params = {**STORE_PARAMS_BASE, "page": page}
         resp = SESSION.get(STORE_API_URL, params=params, timeout=20)
         resp.raise_for_status()
-        text = resp.text.lstrip()
-        # Lazada prepends )]}', (anti-CSRF prefix) before the JSON
-        for prefix in (")]}',\n", ")]}'",):
-            if text.startswith(prefix):
-                text = text[len(prefix):]
-                break
-        data = json.loads(text)
+        text = resp.text
+        start = text.find("{")
+        if start == -1:
+            raise ValueError(f"No JSON in response (first 200 chars): {text[:200]!r}")
+        data = json.loads(text[start:])
 
         items = data.get("mods", {}).get("listItems", [])
         if not items:
