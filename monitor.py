@@ -38,11 +38,14 @@ def fetch_products_api():
         resp = SESSION.get(STORE_API_URL, params=params, timeout=20)
         resp.raise_for_status()
         text = resp.text
-        log.info(f"Response status={resp.status_code} content-type={resp.headers.get('content-type')} first300={text[:300]!r}")
-        start = text.find("{")
-        if start == -1:
-            raise ValueError(f"No JSON object in response")
-        data = json.loads(text[start:])
+        try:
+            data = json.loads(text)
+        except json.JSONDecodeError:
+            raise ValueError(
+                f"JSON parse failed — status={resp.status_code} "
+                f"ct={resp.headers.get('content-type')!r} "
+                f"preview={text[:300]!r}"
+            )
 
         items = data.get("mods", {}).get("listItems", [])
         if not items:
