@@ -37,7 +37,13 @@ def fetch_products_api():
         params = {**STORE_PARAMS_BASE, "page": page}
         resp = SESSION.get(STORE_API_URL, params=params, timeout=20)
         resp.raise_for_status()
-        data = resp.json()
+        text = resp.text.lstrip()
+        # Lazada prepends )]}', (anti-CSRF prefix) before the JSON
+        for prefix in (")]}',\n", ")]}'",):
+            if text.startswith(prefix):
+                text = text[len(prefix):]
+                break
+        data = json.loads(text)
 
         items = data.get("mods", {}).get("listItems", [])
         if not items:
