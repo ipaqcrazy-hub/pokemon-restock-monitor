@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T05:10:22.084391+08:00",
+  "last_updated": "2026-05-11T16:42:11.307656+08:00",
   "products": {
     "13664261034": {
       "id": "13664261034",
@@ -55,12 +55,6 @@
       "url": "https://www.lazada.sg/products/pdp-i13696744288.html",
       "in_stock": false
     },
-    "3487815178": {
-      "id": "3487815178",
-      "name": "Pokémon Center Original TCG White Flare Pokemon Center Elite Trainer Box",
-      "url": "https://www.lazada.sg/products/pdp-i3487815178.html",
-      "in_stock": false
-    },
     "3622560601": {
       "id": "3622560601",
       "name": "Pokémon Trading Card Game Mega Evolution: Ascended Heroes Collection-Larry [Limit 2 per person]",
@@ -73,16 +67,16 @@
       "url": "https://www.lazada.sg/products/pdp-i13664696886.html",
       "in_stock": false
     },
-    "13664788472": {
-      "id": "13664788472",
-      "name": "Pokémon Center Trading Card Game: Mega Evolution: Perfect Order Sleeved Booster [Limit 10 per person]",
-      "url": "https://www.lazada.sg/products/pdp-i13664788472.html",
-      "in_stock": false
-    },
     "3499877023": {
       "id": "3499877023",
       "name": "Pokémon Trading Card Game: Venusaur ex & Blastoise ex Premium Collection",
       "url": "https://www.lazada.sg/products/pdp-i3499877023.html",
+      "in_stock": false
+    },
+    "13664788472": {
+      "id": "13664788472",
+      "name": "Pokémon Center Trading Card Game: Mega Evolution: Perfect Order Sleeved Booster [Limit 10 per person]",
+      "url": "https://www.lazada.sg/products/pdp-i13664788472.html",
       "in_stock": false
     },
     "3563127440": {
@@ -115,16 +109,16 @@
       "url": "https://www.lazada.sg/products/pdp-i3587719741.html",
       "in_stock": false
     },
-    "3653828471": {
-      "id": "3653828471",
-      "name": "Pokémon Trading Card Game: Mega Evolution: Ascended Heroes Mini Tin [Limit to 4 per person regardless of design]",
-      "url": "https://www.lazada.sg/products/pdp-i3653828471.html",
-      "in_stock": false
-    },
     "13664844032": {
       "id": "13664844032",
       "name": "Pokémon Trading Card Game: Mega Evolution: Ascended Heroes Premium Poster Collection (Mega Lucario) [Limit 1 per person]",
       "url": "https://www.lazada.sg/products/pdp-i13664844032.html",
+      "in_stock": false
+    },
+    "3653828471": {
+      "id": "3653828471",
+      "name": "Pokémon Trading Card Game: Mega Evolution: Ascended Heroes Mini Tin [Limit to 4 per person regardless of design]",
+      "url": "https://www.lazada.sg/products/pdp-i3653828471.html",
       "in_stock": false
     },
     "13696652880": {
@@ -175,10 +169,10 @@
       "url": "https://www.lazada.sg/products/pdp-i3622588524.html",
       "in_stock": false
     },
-    "3487788485": {
-      "id": "3487788485",
-      "name": "Pokémon Center Original TCG White Flare & Black Bolt Mini Tins",
-      "url": "https://www.lazada.sg/products/pdp-i3487788485.html",
+    "13664766504": {
+      "id": "13664766504",
+      "name": "Pokémon Trading Card Game: First Partner Booster Collection Series 1 [Limit 1 per person]",
+      "url": "https://www.lazada.sg/products/pdp-i13664766504.html",
       "in_stock": false
     },
     "3653848463": {
@@ -191,18 +185,6 @@
       "id": "3523607675",
       "name": "Pokémon Trading Card Game: Journey Together Enhanced Booster Box [Limit 1 per person]",
       "url": "https://www.lazada.sg/products/pdp-i3523607675.html",
-      "in_stock": false
-    },
-    "13664766504": {
-      "id": "13664766504",
-      "name": "Pokémon Trading Card Game: First Partner Booster Collection Series 1 [Limit 1 per person]",
-      "url": "https://www.lazada.sg/products/pdp-i13664766504.html",
-      "in_stock": false
-    },
-    "3502400974": {
-      "id": "3502400974",
-      "name": "Pokémon Trading Card Game: Mega Battle Decks - Mega Diancie ex [Limit 1 per person]",
-      "url": "https://www.lazada.sg/products/pdp-i3502400974.html",
       "in_stock": false
     },
     "3502939709": {
@@ -277,12 +259,6 @@
       "url": "https://www.lazada.sg/products/pdp-i3548393773.html",
       "in_stock": false
     },
-    "3487868077": {
-      "id": "3487868077",
-      "name": "Pokémon Center Original TCG Black Bolt Pokemon Center Elite Trainer Box",
-      "url": "https://www.lazada.sg/products/pdp-i3487868077.html",
-      "in_stock": false
-    },
     "13664810247": {
       "id": "13664810247",
       "name": "Pokémon Trading Card Game: Mega Evolution: Ascended Heroes Premium Poster Collection (Mega Gardevoir) [Limit 1 per person]",
@@ -299,18 +275,6 @@
       "id": "3514278647",
       "name": "Pokémon Trading Card Game: Lucario ex & Tyranitar ex Premium Collection [Limit 1 per person]",
       "url": "https://www.lazada.sg/products/pdp-i3514278647.html",
-      "in_stock": false
-    },
-    "3487784285": {
-      "id": "3487784285",
-      "name": "Pokémon Trading Card Game White Flare & Black Bolt Poster Collection",
-      "url": "https://www.lazada.sg/products/pdp-i3487784285.html",
-      "in_stock": false
-    },
-    "3489658412": {
-      "id": "3489658412",
-      "name": "Pokémon Trading Card Game Black Bolt Binder Collection",
-      "url": "https://www.lazada.sg/products/pdp-i3489658412.html",
       "in_stock": false
     },
     "13696682681": {
