@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T07:14:54.898528+08:00",
+  "last_updated": "2026-05-14T08:15:00.611891+08:00",
   "products": {
     "13664261034": {
       "id": "13664261034",
@@ -19,12 +19,6 @@
       "url": "https://www.lazada.sg/products/pdp-i3502905738.html",
       "in_stock": false
     },
-    "3523576873": {
-      "id": "3523576873",
-      "name": "[Standard Edition] Pokémon Trading Card Game: Journey Together Elite Trainer Box [Limit 1 per person]",
-      "url": "https://www.lazada.sg/products/pdp-i3523576873.html",
-      "in_stock": false
-    },
     "3653880220": {
       "id": "3653880220",
       "name": "Pokémon Trading Card Game: Mega Evolution: Ascended Heroes Pokémon Center Elite Trainer Box [Limit 2 per person]",
@@ -35,6 +29,12 @@
       "id": "3514366223",
       "name": "Pokémon Trading Card Game: Prismatic Evolutions Premium Figure Collection [Limit 1 per person]",
       "url": "https://www.lazada.sg/products/pdp-i3514366223.html",
+      "in_stock": false
+    },
+    "3523576873": {
+      "id": "3523576873",
+      "name": "[Standard Edition] Pokémon Trading Card Game: Journey Together Elite Trainer Box [Limit 1 per person]",
+      "url": "https://www.lazada.sg/products/pdp-i3523576873.html",
       "in_stock": false
     },
     "13644784028": {
@@ -109,16 +109,16 @@
       "url": "https://www.lazada.sg/products/pdp-i13650758972.html",
       "in_stock": false
     },
-    "3653828471": {
-      "id": "3653828471",
-      "name": "Pokémon Trading Card Game: Mega Evolution: Ascended Heroes Mini Tin [Limit to 4 per person regardless of design]",
-      "url": "https://www.lazada.sg/products/pdp-i3653828471.html",
-      "in_stock": false
-    },
     "13664844032": {
       "id": "13664844032",
       "name": "Pokémon Trading Card Game: Mega Evolution: Ascended Heroes Premium Poster Collection (Mega Lucario) [Limit 1 per person]",
       "url": "https://www.lazada.sg/products/pdp-i13664844032.html",
+      "in_stock": false
+    },
+    "3653828471": {
+      "id": "3653828471",
+      "name": "Pokémon Trading Card Game: Mega Evolution: Ascended Heroes Mini Tin [Limit to 4 per person regardless of design]",
+      "url": "https://www.lazada.sg/products/pdp-i3653828471.html",
       "in_stock": false
     },
     "3622588524": {
